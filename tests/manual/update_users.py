@@ -14,7 +14,7 @@ def update_user():
     if out.status_code==200:
         pprint(out.json())
     else:
-        print("Something went wrong while trying to update.")
+        print("Something went wrong while trying to update user.")
 
 if __name__=="__main__":
     update_user()

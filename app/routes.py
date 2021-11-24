@@ -121,9 +121,13 @@ def update_vehicle(pk):
         "message": "Success"
     }
     vehicle.update(pk,
-    vehicle_data.get("first_name"),
-    vehicle_data.get("last_name"),
-    vehicle_data.get("hobbies"))
+        vehicle_data.get("license_plate"),
+        vehicle_data.get("v_type"),
+        vehicle_data.get("color"),
+        vehicle_data.get("parking_spot_no"),
+        vehicle_data.get("description"),
+        vehicle_data.get("user_id")
+    )
     return out
 
 

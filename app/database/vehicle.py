@@ -46,7 +46,7 @@ def scan():
 
 def read(pk):
     cursor = get_db().execute(
-        "SELECT * FROM vehicle WHERE id=?", (pk,))
+        "SELECT * FROM vehicle WHERE user_id=?", (pk,))
     results = cursor.fetchall()
     cursor.close()
     return output_formatter(results)

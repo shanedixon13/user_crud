@@ -3,12 +3,12 @@ import requests
 
 
 TEST_VEHICLE={
-    "license_plate":"HSY4&DHDJQ",
-    "v_type":"Truck",
-    "color":"Green",
-    "parking_spot_no":"5",
-    "description":"This is the description.",
-    "user_id":"1"
+    "license_plate":"HSY4KDU88",
+    "v_type":"Mini-Van",
+    "color":"Grey",
+    "parking_spot_no":"25",
+    "description":"This is the description of John's vehicle.",
+    "user_id":"3"
 
 }
 

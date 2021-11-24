@@ -3,9 +3,9 @@ import requests
 
 
 TEST_USER={
-    "first_name":"Jane",
-    "last_name":"Doe",
-    "hobbies":"Skiing",
+    "first_name":"Shane",
+    "last_name":"Dixon",
+    "hobbies":"Cycling",
     "active":1
 
 }
